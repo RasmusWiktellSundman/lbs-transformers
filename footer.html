@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="body.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="header.html">header</a>
+    <div class="mobile-container">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+           <img src="assets/images/logga.png" width="4%" height="4%"></a>
+          <div id="myLinks">
+            <a href="#home">Hem</a>
+            <a href="#link1">Länk 1</a>
+            <a href="#link2">Länk 2</a>
+            <a href="#link3">Länk 3</a>
+            <a href="#link4">Länk 4</a>
+          </div>
+          <div id="hamburger-meny" onclick="myFunction()">
+              <div style="margin-top:16px;width: 45px; height: 2px; background-color: black;"></div>
+              <div style="margin-top:7px; width: 45px; height: 2px; background-color: black;"></div>
+              <div style="margin-top:7px; width: 45px; height: 2px; background-color: black;"></div>
+          </div>
+        
+        <!-- End smartphone / tablet look -->
+        </div>
+        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+        
+</body>
+<footer>
+    <img src="https://mail.google.com/mail/u/0?ui=2&ik=0108828b3a&attid=0.1&permmsgid=msg-f:1755272736026308271&th=185bfb40eac6aeaf&view=att&disp=safe&realattid=f_ld0230e54" width="7%" height="7%" style="margin-bottom: 30px;">
+    <h3>Kontaktuppgifter</h3> 
+    <img src="https://mail.google.com/mail/u/0?ui=2&ik=0108828b3a&attid=0.1&permmsgid=msg-f:1755173543014423310&th=185ba109be89db0e&view=att&disp=safe&realattid=f_lcyncnos0" width="7%" height="7%">
+    <h3>osvosvosvosv</h3>
+    <img src="https://mail.google.com/mail/u/0?ui=2&ik=0108828b3a&attid=0.2&permmsgid=msg-f:1755272736026308271&th=185bfb40eac6aeaf&view=att&disp=safe&realattid=f_ld0230ds1" width="7%" height="7%" style="margin-top: -20px;">
+</footer>
+</html>

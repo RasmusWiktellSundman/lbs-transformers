@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 header nav {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: fixed;
@@ -104,4 +105,31 @@ header nav a:hover {
 
 .bar::after {
     right: 0;
+}
+
+hamburger-meny {
+    align-self: flex-start;
+}
+.something {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        background-color: #3D5473;
+        flex-direction: column;
+    }
+
+    nav .links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav .logo {
+        align-self: flex-start;
+    }
 }
