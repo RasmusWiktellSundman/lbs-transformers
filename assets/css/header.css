@@ -50,3 +50,19 @@ header nav a:hover {
     background-color: red;
     border: 1px solid black;
 }
+
+@media only screen and (max-width: 600px) {
+    nav {
+        background-color: #3D5473;
+        flex-direction: column;
+    }
+
+    nav .links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav .logo {
+        align-self: flex-start;
+    }
+}
