@@ -14,8 +14,74 @@ body {
     background-color: #3D5473;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+    font-family: aptly,sans-serif;
+    border: 1px solid blue;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: bold;
+    width: min-content;
+    text-align: center;
+    border: 1px solid red;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    line-height: 140%;
+    padding: 5%;
+    font-size: 1.2rem;
+    border: 1px solid white;
+}
+
 main {
-    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    padding: 2%;
+    text-align: left;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.div {
+}
+
+.div1 {   
+}
+
+.div2 {
+}
+
+.div3 {
+}
+
+.div4 {
+    grid-column: 1;
+}
+
+.div5 {
+}
+
+.pdiv5 {
+    margin-top: 29.2%;
+}
+
+.div6 {
+    grid-column: 3 / span 2;
+}
+
+img {
+    border: 1px solid green;
 }
 
 .imgMonster {
@@ -26,68 +92,18 @@ main {
     margin-bottom: -10%;
 }
 
-img {
-    width: 100%;
-    height: auto;
+.robotsittande {
+    transform: rotateY(180deg);
+    margin-top: -35%;
+    margin-left: -40%;
 }
 
-.divContainer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    height: auto;
-    padding: 2%;
-    text-align: center;
+.avLangRuta {
+    margin-top: -300%;
 }
 
-
-.div {
-    
-}
-
-.div1 {
-    
-}
-
-.div2 {
-    
-}
-
-.div3 {
-    
-}
-
-.div4 {
-    grid-column: 1;
-    
-}
-
-.div5 {
-    margin-top: 67px;
-}
-
-.div6 {
-    grid-column: 3 / span 2;
-}
-
-h1, p {
-    color: white;
-    font-family: aptly,sans-serif;
-
-}
-
-h1 {
-    font-weight: 700;
-    font-style: bold;
-    width: min-content;
-    text-align: center;
-}
-
-p {
-    font-weight: 400;
-    font-style: normal;
-    line-height: 140%;
-    padding: 5%;
-    font-size: 100%;
+.stracksida3 {
+    width: 0%;
 }
 
 /* Från header.css */
