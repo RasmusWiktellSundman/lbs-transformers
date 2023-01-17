@@ -1,0 +1,119 @@
+:root {
+    --primary: #3D5473;
+    --secondary: #7B8DA6;
+    --light: #A8B2C0;
+    --dark: #464765;
+    --purple: #756B96;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3D5473;
+}
+
+main {
+    
+}
+
+.imgMonster {
+    width: 95%;
+    grid-column: 1 / span 2;
+    margin-left: -10%;
+    margin-top: -30%;
+    margin-bottom: -10%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.divContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    padding: 2%;
+    text-align: center;
+}
+
+
+.div {
+    
+}
+
+.div1 {
+    
+}
+
+.div2 {
+    
+}
+
+.div3 {
+    
+}
+
+.div4 {
+    grid-column: 1;
+    
+}
+
+.div5 {
+    margin-top: 67px;
+}
+
+.div6 {
+    grid-column: 3 / span 2;
+}
+
+h1, p {
+    color: white;
+    font-family: aptly,sans-serif;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-style: bold;
+    width: min-content;
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    line-height: 140%;
+    padding: 5%;
+    font-size: 100%;
+}
+
+/* Från header.css */
+.bar {
+    width: 140%;
+    height: 2px;
+    background-color: var(--purple);
+    margin: 5px 0;
+    position: relative;
+}
+
+.bar::after, .bar::before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: var(--purple);
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
+
+.bar::before {
+    left: 0;
+}
+
+.bar::after {
+    right: 0;
+}
