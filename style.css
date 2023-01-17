@@ -2,51 +2,72 @@
     box-sizing: border-box;
 }
 
-body   {
+body {
     background-color: #3D5473;
 }
 
-main    {
+main {
     
+}
+
+img {
+    width: 100%;
+    height: auto;
+
 }
 
 .divContainer {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, 1fr);
     height: auto;
     padding: 2%;
     text-align: center;
 }
 
 
-.div     {
+.div {
+    
 }
 
-.div1   {
-
+.div1 {
+    
 }
 
-.div2   {
-
+.div2 {
+    
 }
 
-.div3   {
+.div3 {
+    
 }
 
-h1, p   {
+.div4 {
+    
+}
+
+.div5 {
+    margin-top: 22,5%;
+}
+
+.div6 {
+    grid-column: 3 / span 2;
+}
+
+h1, p {
     color: white;
     font-family: aptly,sans-serif;
 
 }
 
-h1      {
+h1 {
     font-weight: 700;
     font-style: bold;
 }
 
-p       {
+p {
     font-weight: 400;
     font-style: normal;
     line-height: 140%;
     padding: 5%;
+    font-size: 100%;
 }
