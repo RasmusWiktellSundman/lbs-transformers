@@ -1,0 +1,43 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    background-color: #3D5473;
+  }
+  #hamburger-meny {
+    align-self: flex-start;
+}
+  .topnav #myLinks {
+    display: none;
+    background-color: purple;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 0.5% 0.5%;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background-color: #3D5473;
+  }
+  
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5%;
+    height: 100%;
+
+  }
+  
+  .topnav a:hover {
+    background-color: #3D5473;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  

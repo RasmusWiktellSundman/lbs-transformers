@@ -53,11 +53,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* =============
     2. Header
-    2.1 Navbar
+    2.1.1 Navbar
    ============= */
 
 header nav {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: fixed;
@@ -84,6 +85,29 @@ header nav a {
 
 header nav a:hover {
     text-decoration: underline;
+}
+
+/* =============
+    2.1.2 Mobile menu
+   ============= */
+@media only screen and (max-width: 600px) {
+    nav {
+        background-color: #3D5473;
+        flex-direction: column;
+    }
+
+    nav .links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav .logo {
+        align-self: flex-start;
+    }
+}
+
+.hamburger-meny {
+    align-self: flex-start;
 }
 
 /* =============
