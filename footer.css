@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 footer {
     width: 100%;
     background-color: black;
@@ -20,4 +21,7 @@ footer h3{
 }
 body {
     margin:0%;
+}
+footer{
+    margin-top: 5%;
 }

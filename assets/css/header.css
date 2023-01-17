@@ -9,6 +9,7 @@ body {
 
 header nav {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: fixed;
@@ -41,6 +42,10 @@ header nav a:hover {
 #hero {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+#hamburger-meny {
+    align-self: flex-start;
 }
 
 .something {
