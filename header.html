@@ -42,7 +42,11 @@
                 <img src="assets/images/hexagon3.svg" alt="Hexagoner" class="right-hexagon">
             </div>
         </section>
-        <img src="assets/images/robot_pattern.svg" alt="Hexagoner" id="left-hexagons">
+        <!-- Behövs för att kunna använda overflow-x: hidden; Kan inte användas på header, då y-led i sådanafall får en scrollbar. -->
+        <div class="background-items">
+            <img src="assets/images/robot_pattern.svg" alt="Hexagoner" id="left-hexagons">
+            <img src="assets/images/header_hexagons_right.svg" alt="Hexagoner" id="right-hexagons">
+        </div>
     </header>
     <a href="footer.html">footer</a>
 </body>
