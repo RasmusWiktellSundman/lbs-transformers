@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: var(--purple);
     margin: 5px 0;
     position: relative;
+
+    /* Center bar horizontally */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .bar::after, .bar::before {
