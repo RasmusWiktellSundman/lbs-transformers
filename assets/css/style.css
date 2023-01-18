@@ -176,7 +176,7 @@ header nav a:hover {
     margin: 0;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 600px) {
     .mobile-menu-toggle {
         display: block;
     }
@@ -226,6 +226,7 @@ header nav a:hover {
 
 #hero .logo {
     width: 75%;
+    max-width: 150px;
     margin: 0 auto;
 }
 
@@ -238,6 +239,8 @@ header nav a:hover {
 
 #hero .hexagons img {
     width: 30%;
+    max-width: 170px;
+    min-width: 80px;
 }
 
 #hero .left-hexagon {
@@ -273,6 +276,12 @@ header nav a:hover {
     transform: scale(1.1);
 }
 
+@media only screen and (max-width: 730px) {
+    header .bar {
+        width: 110%;
+    }
+}
+
 /* =============
     2.2 Background elements
    ============= */
@@ -283,19 +292,24 @@ header nav a:hover {
 }
 @media only screen and (max-width: 1100px) {
     #left-hexagons {
-        width: 300px !important;
+        width: 300px;
     }
 }
 @media only screen and (max-width: 950px) {
     #left-hexagons {
-        width: 200px !important;
+        width: 200px;
         top: 275px;
     }
 }
 @media only screen and (max-width: 620px) {
     #left-hexagons {
-        width: 150px !important;
+        width: 150px;
         top: 275px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #left-hexagons, #right-hexagons {
+        display: none;
     }
 }
 
@@ -307,17 +321,17 @@ header nav a:hover {
 }
 @media only screen and (max-width: 1100px) {
     #right-hexagons {
-        width: 300px !important;
+        width: 300px;
     }
 }
 @media only screen and (max-width: 950px) {
     #right-hexagons {
-        width: 200px !important;
+        width: 200px;
     }
 }
 @media only screen and (max-width: 620px) {
     #right-hexagons {
-        width: 150px !important;
+        width: 150px;
     }
 }
 
@@ -329,27 +343,17 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: auto;
-    padding: 2%;
+    padding: 20px;
+    gap: 5px;
     text-align: left;
 }
 
 .div {
-    margin-top: 280px;
+    margin-top: 110px;
 }
-@media only screen and (max-width: 1100px) {
-    .div {
-        margin-top: 200px;
-    }
-}
-@media only screen and (max-width: 950px) {
-    .div {
-        margin-top: 50px;
-    }
-}
-@media only screen and (max-width: 620px) {
-    .div {
-        margin-top: 0;
-    }
+
+.div3 {
+    margin-top: 340px;
 }
 
 .div4 {
@@ -364,10 +368,29 @@ main {
     grid-column: 3 / span 2;
 }
 
+@media only screen and (max-width: 1100px) {
+    .div {
+        margin-top: 180px;
+    }
+    .div3 {
+        margin-top: 200px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .div {
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .div {
+        margin-top: 0;
+    }
+}
+
 .imgMonster {
     width: 95%;
     grid-column: 1 / span 2;
-    margin-left: -10%;
+    margin-left: -20px;
     margin-top: -30%;
     margin-bottom: -10%;
 }
@@ -396,19 +419,60 @@ main {
     main {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .div6 {
         grid-column: 1 / span 2;
     }
+
+    .div2 img {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: -150px;
+    }
+
+    .div3 {
+        margin-top: 0;
+    }
+    
+    .imgMonster {
+        transform: rotateY(180deg);
+        justify-self: end;
+        margin-left: 0;
+        margin-right: -20px;
+    }
 }
 
-@media only screen and (max-width: 400px ){
+@media only screen and (max-width: 600px ){
     main {
         grid-template-columns: 1fr;
+    }
+
+    .div p {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .div1 p {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .div2 img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        margin-top: -50px;
     }
     
     .div6, .imgMonster {
         grid-column: 1;
+    }
+
+    .imgMonster {
+        transform: none;
+        justify-self: start;
+        margin: 0;
+        margin-left: -20px;
     }
 }
 
@@ -441,4 +505,5 @@ footer .footer-image-left, footer .footer-image-right {
 
 footer .logo {
     width: 3%;
+    min-width: 30px;
 }
