@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: aptly,sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
 .bar {
     width: 140%;
     height: 2px;
@@ -344,6 +348,26 @@ main {
 
 .stracksida3 {
     width: 0%;
+}
+
+@media only screen and (max-width: 900px ){
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .div6 {
+        grid-column: 1 / span 2;
+    }
+}
+
+@media only screen and (max-width: 400px ){
+    main {
+        grid-template-columns: 1fr;
+    }
+    
+    .div6, .imgMonster {
+        grid-column: 1;
+    }
 }
 
 /* =============
