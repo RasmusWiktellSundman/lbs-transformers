@@ -11,19 +11,21 @@
     <!-- Används för att avgöra när användaren nått toppen, för att visa/dölja navigationens bakgroundsfärg, se app.js -->
     <div id="top"></div>
     <header>
-        <nav class="">
-            <img src="assets/images/logga.png" alt="Logotyp" class="logo">
+        <nav>
+            <div>
+                <img src="assets/images/logga.png" alt="Logotyp" class="logo">
+                <div id="nav-toggle" class="mobile-menu-toggle">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
             <div class="links">
                 <a href="#home">Hem</a>
                 <a href="#link1">Länk 1</a>
                 <a href="#link1">Länk 2</a>
                 <a href="#link1">Länk 3</a>
                 <a href="#link1">Länk 4</a>
-            </div>
-            <div id="hamburger-meny" style="display: none;">
-                <div style="width: 45px; height: 2px; background-color: black;"></div>
-                <div style="margin-top:7px; width: 45px; height: 2px; background-color: black;"></div>
-                <div style="margin-top:7px; width: 45px; height: 2px; background-color: black;"></div>
             </div>
         </nav>
         <section id="hero">
