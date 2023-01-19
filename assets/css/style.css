@@ -348,6 +348,15 @@ main {
     text-align: left;
 }
 
+#AI:before, #Robotar:before, #SocialaMedier:before { 
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: 3em;
+    margin-top: -3em;
+}
+
 .div {
     /* Bilden är 587px och bilden är 250px från toppen */
     margin-top: calc(587px - calc(100vh - 250px));
