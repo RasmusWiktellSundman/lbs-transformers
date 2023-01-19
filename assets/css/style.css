@@ -349,11 +349,13 @@ main {
 }
 
 .div {
-    margin-top: 110px;
+    /* Bilden är 587px och bilden är 250px från toppen */
+    margin-top: calc(587px - calc(100vh - 250px));
 }
 
 .div3 {
-    margin-top: 340px;
+    /* Bilden är 997px och bilden är 60px från toppen */
+    margin-top: calc(997px - calc(100vh - 60px));
 }
 
 .div4 {
@@ -370,20 +372,43 @@ main {
 
 @media only screen and (max-width: 1100px) {
     .div {
-        margin-top: 180px;
+        /* Bilden är 503px och bilden är 250px från toppen */
+        margin-top: calc(503px - calc(100vh - 250px));
     }
     .div3 {
-        margin-top: 200px;
+        /* Bilden är 854px och bilden är 60px från toppen */
+    margin-top: calc(854px - calc(100vh - 60px));
     }
 }
 @media only screen and (max-width: 950px) {
     .div {
-        margin-top: 50px;
+        /* Bilden är 335px och bilden är 250px från toppen */
+        margin-top: calc(335px - calc(100vh - 250px));
+    }
+
+    .div3 {
+        /* Bilden är 570px och bilden är 250px från toppen */
+        margin-top: calc(570px - calc(100vh - 60px));
+    }
+}
+@media only screen and (max-width: 900px) {
+    .div3 {
+        margin-top: 0;
+    }
+
+    .div1 {
+        /* Bilden är 570px och bilden är 250px från toppen */
+        margin-top: calc(570px - calc(100vh - 60px));
     }
 }
 @media only screen and (max-width: 620px) {
-    .div {
+    .div, .div3 {
         margin-top: 0;
+    }
+
+    .div1 {
+        /* Bilden är 570px och bilden är 250px från toppen */
+        margin-top: calc(570px - calc(100vh - 60px));
     }
 }
 
@@ -396,7 +421,7 @@ main {
 }
 
 .gung_robot_lang {
-    width: 150%;
+    width: 130%;
     margin-left: -30%;
     margin-top: -10%;
 }
