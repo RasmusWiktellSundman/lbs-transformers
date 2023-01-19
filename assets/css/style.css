@@ -428,8 +428,6 @@ main {
 
 .robotsittande {
     transform: rotateY(180deg);
-    margin-top: -35%;
-    margin-left: -40%;
 }
 
 .avLangRuta {
@@ -464,6 +462,10 @@ main {
         justify-self: end;
         margin-left: 0;
         margin-right: -20px;
+    }
+
+    .robotsittande {
+        width: 50%;
     }
 }
 
