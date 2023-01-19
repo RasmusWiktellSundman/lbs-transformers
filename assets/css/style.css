@@ -275,6 +275,10 @@ header nav a:hover {
 
 #hero .title .robots {
     text-align: right;
+    margin: 0;
+}
+#hero .title .ai {
+    margin: 0;
 }
 
 #hero .hexagons img:hover {
@@ -368,31 +372,34 @@ main {
     margin-top: -3em;
 }
 
-.div {
+.article1 {
     /* Bilden är 587px och bilden är 250px från toppen */
     margin-top: calc(587px - calc(100vh - 250px));
     grid-column: 1 / span 2;
 }
 
-div p {
+article p {
     padding: 0;
     max-width: 60ch;
     margin: 0 auto;
 }
 
-.div2 {
+.gung_robot {
+    grid-column: 3 / span 2;
+    width: 65%;
+    margin-left: -10%;
+    margin-top: -0%;
+}
+
+.article2 {
     grid-column: 3 / span 2;
 }
 
-.div3 {
-    grid-column: 3 / span 2;
-}
-
-.div4 {
+.article3 {
     grid-column: 1 / span 2;
 }
 
-.div6 {
+.article4 {
     grid-column: 3 / span 2;
 }
 
@@ -428,16 +435,12 @@ div p {
     text-align: right;
 }
 
-.div6 .text {
+.article4 .text {
     max-height: 29.5rem;
     overflow: auto;
 }
 
-.div6 p {
-    padding: 0;
-}
-
-.div6 img {
+.article4 img {
     width: 100%;
 }
 
@@ -447,12 +450,6 @@ div p {
     margin-left: -20px;
     margin-top: -60%;
     margin-bottom: -10%;
-}
-
-.gung_robot_lang {
-    width: 65%;
-    margin-left: -10%;
-    margin-top: -0%;
 }
 
 .robotsittande {
@@ -473,35 +470,24 @@ div p {
 }
 
 @media only screen and (max-width: 1100px) {
-    .div {
+    .article1 {
         /* Bilden är 503px och bilden är 250px från toppen */
         margin-top: calc(503px - calc(100vh - 250px));
     }
 }
 @media only screen and (max-width: 950px) {
-    .div {
+    .article1 {
         /* Bilden är 335px och bilden är 250px från toppen */
         margin-top: calc(335px - calc(100vh - 250px));
     }
 }
 @media only screen and (max-width: 900px) {
-    .div {
+    .article1 {
         margin-top: 0;
     }
 
-    .div3 {
+    .article2 {
         margin-top: 0;
-    }
-
-    .div1 {
-        /* Bilden är 570px och bilden är 250px från toppen */
-        margin-top: calc(570px - calc(100vh - 60px));
-    }
-}
-@media only screen and (max-width: 620px) {
-    .div1 {
-        /* Bilden är 570px och bilden är 250px från toppen */
-        margin-top: calc(570px - calc(100vh - 60px));
     }
 }
 
@@ -510,15 +496,13 @@ div p {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .div {
+    .article1 {
         grid-column: 1;
     }
 
-    .div2 {
+    .gung_robot {
+        margin: 0;
         grid-column: 2;
-    }
-
-    .div2 img {
         width: 70%;
         display: block;
         margin: 0 auto;
@@ -533,16 +517,12 @@ div p {
         margin-bottom: 0;
     }
     
-    .div3 {
+    .article2 {
         grid-column: 2;
         margin-top: 0;
     }
 
-    .gung_robot_lang {
-        margin: 0;
-    }
-
-    .div4 {
+    .article3 {
         grid-column: 1;
     }
 
@@ -554,7 +534,7 @@ div p {
         grid-column: 1;
     }
 
-    .div6 {
+    .article4 {
         grid-column: 2;
     }
 }
@@ -564,36 +544,27 @@ div p {
         grid-template-columns: 1fr;
     }
 
-    main div {
+    main article, .robot-images {
         grid-column: 1 !important;
     }
 
-    .div p {
+    .article1 p {
         margin-bottom: 0;
         padding-bottom: 0;
     }
 
-    .div1 p {
-        margin-top: 0;
-        padding-top: 0;
-    }
-
-    .div2 img {
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-        margin-top: -50px;
-    }
-    
-    .div6, .pattern {
-        grid-column: 1;
-    }
-
     .pattern {
+        grid-column: 1;
         transform: none;
         justify-self: start;
         margin: 0;
         margin-left: -20px;
+    }
+
+    .gung_robot {
+        width: 50%;
+        grid-row: 4;
+        grid-column: 1;
     }
 }
 
