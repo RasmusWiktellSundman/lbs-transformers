@@ -77,7 +77,6 @@ h2 {
 
 h1 {
     font-weight: 700;
-    font-style: bold;
     width: min-content;
     text-align: center;
 }
@@ -415,7 +414,6 @@ div p {
 }
 
 .robot-images img:nth-child(2) {
-    margin-left: block;
     margin-left: 70%;
     margin-top: -10%;
     transform: translateX(-50%);
@@ -443,7 +441,7 @@ div p {
     width: 100%;
 }
 
-.imgMonster {
+.pattern {
     width: 95%;
     grid-column: 1 / span 2;
     margin-left: -20px;
@@ -527,7 +525,7 @@ div p {
         margin-top: 0;
     }
 
-    .imgMonster {
+    .pattern {
         grid-column: 1;
         grid-row: 2;
         align-self: center;
@@ -587,11 +585,11 @@ div p {
         margin-top: -50px;
     }
     
-    .div6, .imgMonster {
+    .div6, .pattern {
         grid-column: 1;
     }
 
-    .imgMonster {
+    .pattern {
         transform: none;
         justify-self: start;
         margin: 0;
