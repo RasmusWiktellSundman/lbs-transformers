@@ -40,6 +40,7 @@ h3 {
 }
 
 .bar {
+    display: block;
     width: 120%;
     height: 2px;
     background-color: var(--purple);
