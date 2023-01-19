@@ -370,6 +370,24 @@ main {
     grid-column: 3 / span 2;
 }
 
+.div6 .text {
+    max-height: 29.5rem;
+    overflow: auto;
+}
+
+.div6 p {
+    padding: 0;
+}
+
+.div6 img {
+    width: 50%;
+    float: left;
+}
+
+.div6 img:nth-child(1) {
+    /* width: 50%; */
+}
+
 @media only screen and (max-width: 1100px) {
     .div {
         /* Bilden är 503px och bilden är 250px från toppen */
