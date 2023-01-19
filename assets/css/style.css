@@ -13,8 +13,8 @@
     box-sizing: border-box;
 }
 
-.copyright {
-    color: grey;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -69,6 +69,10 @@ h3 {
 
 .bar::after {
     right: 0;
+}
+
+.copyright {
+    color: grey;
 }
 
 h2 {
