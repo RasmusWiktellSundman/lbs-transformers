@@ -481,15 +481,10 @@ article p {
 }
 @media only screen and (max-width: 950px) {
     .article1 {
-        /* Bilden är 335px och bilden är 250px från toppen */
-        margin-top: calc(335px - calc(100vh - 250px));
+        margin-top: 0;
     }
 }
 @media only screen and (max-width: 900px) {
-    .article1 {
-        margin-top: 0;
-    }
-
     .article2 {
         margin-top: 0;
     }
