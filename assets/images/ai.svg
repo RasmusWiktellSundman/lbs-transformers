@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 109.2 98.8" style="enable-background:new 0 0 109.2 98.8;" xml:space="preserve">
-<defs>
-  <style type="text/css">
-    @import url('https://use.typekit.net/ecm7jiz.css');
- </style>
-</defs>
 <style type="text/css">
 	.st0{fill:none;stroke:#7B8CA5;stroke-width:2;stroke-miterlimit:10;}
 	.st1{fill:none;}
-	.st2{fill:#7B8CA5;}
-	.st4{font-size:12px;}
-	.st5{font-family:'ArialMT';}
+	.st2{enable-background:new    ;}
+	.st3{fill:#7B8CA5;}
 </style>
 <g>
 	<path class="st0" d="M26.4,92.6L3.2,53.9c-1.3-2.2-1.4-4.9-0.1-7.1L25,7.3c1.2-2.2,3.6-3.6,6.1-3.7l45.1-0.7c2.5,0,4.9,1.3,6.2,3.5
@@ -20,7 +14,14 @@
 	<path class="st0" d="M29.8,85.4l-19-31.8c-1.3-2.3-1.4-5.1-0.1-7.3l18-32.4c1.3-2.3,3.7-3.7,6.3-3.8l37-0.7c2.6,0,5.1,1.3,6.4,3.6
 		l19.1,31.8c1.3,2.3,1.4,5.1,0.1,7.3l-18,32.4c-1.3,2.3-3.7,3.7-6.3,3.8l-37.1,0.6C33.6,89,31.2,87.6,29.8,85.4z"/>
 	<rect x="37.5" y="44" class="st1" width="35.1" height="34.4"/>
-	<text transform="matrix(1 0 0 1 50.231 55.5385)" class="st2 st3 st4">Ai</text>
-	<text transform="matrix(1 0 0 1 59.931 55.5385)" class="st5 st4"> </text>
+	<g class="st2">
+		<path class="st3" d="M56.2,55c0,0.3-0.2,0.5-0.5,0.5h-0.9c-0.3,0-0.5-0.2-0.5-0.5v-3.6c0-0.2-0.2-0.3-0.4-0.3h-0.7
+			c-0.2,0-0.3,0.2-0.3,0.3V55c0,0.3-0.2,0.5-0.5,0.5h-0.9c-0.3,0-0.5-0.2-0.5-0.5v-8.3c0-1,0.3-1.7,0.9-2.1c0.5-0.4,1.1-0.6,1.8-0.6
+			s1.3,0.2,1.8,0.6c0.6,0.5,0.9,1.1,0.9,2.1V55z M53.2,49.3h0.7c0.2,0,0.4-0.1,0.4-0.3v-2.4c0-0.3-0.1-0.4-0.2-0.6
+			c-0.1-0.1-0.3-0.2-0.5-0.2c-0.2,0-0.4,0.1-0.5,0.2c-0.1,0.1-0.2,0.3-0.2,0.6V49C52.8,49.1,52.9,49.3,53.2,49.3z"/>
+		<path class="st3" d="M59.3,45.3c0,0.3-0.2,0.5-0.5,0.5h-0.9c-0.3,0-0.5-0.2-0.5-0.5v-0.8c0-0.3,0.2-0.5,0.5-0.5h0.9
+			c0.3,0,0.5,0.2,0.5,0.5V45.3z M59.3,55c0,0.3-0.2,0.5-0.5,0.5h-0.9c-0.3,0-0.5-0.2-0.5-0.5v-7.8c0-0.3,0.2-0.5,0.5-0.5h0.9
+			c0.3,0,0.5,0.2,0.5,0.5V55z"/>
+	</g>
 </g>
 </svg>
